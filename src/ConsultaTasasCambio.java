@@ -28,9 +28,9 @@ public class ConsultaTasasCambio {
             : DEFAULT_KEY;
 
     // Imprimimos la clave que estamos usando para diagnóstico
-    static {
-        System.out.println("API_KEY leída: '" + API_KEY + "'");
-    }
+    // static {
+    //    System.out.println("API_KEY leída: '" + API_KEY + "'");
+    // }
 
     private static final String BASE_URL = "https://v6.exchangerate-api.com/v6/"
             + API_KEY + "/latest/";
